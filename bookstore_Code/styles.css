@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+/* It's good etiqute to set your margin and padding to zero
+to get rid of browsers built in settings. */
+
+a { 
+    text-decoration: none;
+}
+.Header { 
+    text-align:center; 
+}
+body { 
+    
+    background-color: lightblue; 
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/* styling for the columns */
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    border: 1px solid black;
+}
+.table {  
+    color: black; 
+    margin: auto;
+    border: black;
+}
+.table1 {
+         
+    border: black;   
+}
+a:hover { 
+    background-color: grey; 
+}
+
+/* this class overrides the class on top*/
+.navbar { 
+    
+    display:flex; 
+    justify-content:right;
+/*width 100% is the whole screen
+100vw is the whole screen and behind the 
+side scroller, use 100% most times*/
+    width: 100%; 
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: burlywood;
+    font-size: 20px;
+}
+
+.mainnav { 
+    
+    display: flex;
+    margin-right: 2%;
+    justify-content: space-between;
+    width: 50%;
+    list-style: none
+}
+
+.mainnav li{
+    display: inline; 
+    color: #bd3f3f; 
+ 
+}
+
+.mainnav li a{
+    color: #454366; 
+}

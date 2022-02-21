@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="Header" >
+        
+        <nav class="navbar"> 
+            <ul class="mainnav" > 
+                <li> 
+                    <a href="Edit.html"> Edit</a>
+                </li>
+                <li>
+                    <a href="Add.html"> Add</a>
+                </li>
+                <li> 
+                    <a href="Delete.html"> Delete</a>
+                </li>
+                <li> 
+                    <a href="createnewuser.html"> Create New User</a>
+                </li>
+            </ul>
+        </nav>
+<br>
+        <h1 id="title"> Catalog </h1>
+<br> 
+        <div id="searchbar"> 
+                <button id="filter" onclick="filter();">Filter</button>
+                <label for="search" id="label1" class="cLabel"></label>
+                <input type="text" id="search" placeholder="Enter Book Title" />
+                <button id="btnFindIt" onclick="searchbar1();">Search</button>
+                <button id="sort" onclick="Sort();">Sort</button>
+                <button id="Reset" onclick="reset1();">Reset</button>
+        </div>
+    </div>
+    <h1 id="a">A</h1>
+
+    <div class="table1">
+        <div id="row0" class="row">
+            <div class="column center ">
+                <span id="span1-1">Title</span>
+            </div>
+            <div class="column center ">
+                <span id="span1-2">Price</span>
+            </div>
+            <div class="column center ">
+                <span id="span1-3">Location</span>
+            </div>
+            
+        <div id="row1" class="row"> 
+            <div class="column center ">
+                <span id="span1-1">A good book</span>
+            </div>
+            <div class="column center ">
+                <span id="span1-2">200</span>
+            </div>
+            <div class="column center ">
+                <span id="span1-3">New York City</span>
+            </div>
+        </div>
+        <div id="row2" class="row"> 
+            <div class="column center ">
+                <span id="span1-1">A good book</span>
+            </div>
+            <div class="column center ">
+                <span id="span1-2">200</span>
+            </div>
+            <div class="column center ">
+                <span id="span1-3">New York City</span>
+            </div>
+        </div>
+        <div id="row3" class="row"> 
+            <div class="column center ">
+                <span id="span1-1">A good book</span>
+            </div>
+            <div class="column center ">
+                <span id="span1-2">200</span>
+            </div>
+            <div class="column center ">
+                <span id="span1-3">New York City</span>
+            </div>
+        </div>
+        <div id="row4" class="row"> 
+            <div class="column center ">
+                <span id="span1-1">A good book</span>
+            </div>
+            <div class="column center ">
+                <span id="span1-2">200</span>
+            </div>
+            <div class="column center ">
+                <span id="span1-3">New York City</span>
+            </div>
+        </div>
+
+    </div>
+    <h1 id="b">B</h1>
+
+    <div class="table2">
+        <div id="row0" class="row">
+            <div class="column center ">
+                <span id="span1-1">Title</span>
+            </div>
+            <div class="column center ">
+                <span id="span1-2">Price</span>
+            </div>
+            <div class="column center ">
+                <span id="span1-3">Location</span>
+            </div>
+            
+        <div id="row1" class="row"> 
+            <div class="column center ">
+                <span id="span1-1">Bad book</span>
+            </div>
+            <div class="column center ">
+                <span id="span1-2">50</span>
+            </div>
+            <div class="column center ">
+                <span id="span1-3">Los Angelos</span>
+            </div>
+        </div>
+        <div id="row2" class="row"> 
+            <div class="column center ">
+                <span id="span1-1">Bad book</span>
+            </div>
+            <div class="column center ">
+                <span id="span1-2">50</span>
+            </div>
+            <div class="column center ">
+                <span id="span1-3">Los Angelos</span>
+            </div>
+        </div>
+        <div id="row3" class="row"> 
+            <div class="column center ">
+                <span id="span1-1">Bad book</span>
+            </div>
+            <div class="column center ">
+                <span id="span1-2">50</span>
+            </div>
+            <div class="column center ">
+                <span id="span1-3">Los Angelos</span>
+            </div>
+        </div>
+        <div id="row4" class="row"> 
+            <div class="column center ">
+                <span id="span1-1">Bad book</span>
+            </div>
+            <div class="column center ">
+                <span id="span1-2">50</span>
+            </div>
+            <div class="column center ">
+                <span id="span1-3">Los Angelos</span>
+            </div>
+        </div>
+
+    
+    
+    </div>
+    <h1 id="c">C</h1>
+
+    <div class="table3">
+        <div id="row0" class="row">
+            <div class="column center ">
+                <span id="span1-1">Title</span>
+            </div>
+            <div class="column center ">
+                <span id="span1-2">Price</span>
+            </div>
+            <div class="column center ">
+                <span id="span1-3">Location</span>
+            </div>
+            
+        <div id="row1" class="row"> 
+            <div class="column center ">
+                <span id="span1-1">Crazy Book</span>
+            </div>
+            <div class="column center ">
+                <span id="span1-2">5000</span>
+            </div>
+            <div class="column center ">
+                <span id="span1-3">Chicago</span>
+            </div>
+        </div>
+        <div id="row2" class="row"> 
+            <div class="column center ">
+                <span id="span1-1">Crazy Book</span>
+            </div>
+            <div class="column center ">
+                <span id="span1-2">5000</span>
+            </div>
+            <div class="column center ">
+                <span id="span1-3">Chicago</span>
+            </div>
+        </div>
+        <div id="row3" class="row"> 
+            <div class="column center ">
+                <span id="span1-1">Crazy Book</span>
+            </div>
+            <div class="column center ">
+                <span id="span1-2">5000</span>
+            </div>
+            <div class="column center ">
+                <span id="span1-3">Chicago</span>
+            </div>
+        </div>
+        <div id="row4" class="row"> 
+            <div class="column center ">
+                <span id="span1-1">Crazy Book</span>
+            </div>
+            <div class="column center ">
+                <span id="span1-2">5000</span>
+            </div>
+            <div class="column center ">
+                <span id="span1-3">Chicago</span>
+            </div>
+        </div> 
+    
+    </div>
+</body>
+</html>

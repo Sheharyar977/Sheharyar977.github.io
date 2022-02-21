@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+<style> 
+.AddBook { 
+    display: auto;
+    margin: auto; 
+    text-align: left; 
+}
+.box {
+  display: grid;
+  width: 540px;
+  grid-template-columns: 120px 120px 120px;
+  align-items: start;
+  justify-content: space-between;
+}
+</style>
+</head>
+<body>
+    <h1 style="text-align: center "> Add Book </h1>
+    <div class="AddBook"> 
+        <label for="BookName"> <b>Book Name</b>  </label> 
+            <input class="box" type="text" placeholder="Bookname" name="BookName" required> 
+            <br> 
+            <label for="Price"> <b>Price </b> </label>
+            <input class="box" type="number" placeholder="Price" name="Price" required> 
+            <br> 
+            
+            <label for="Location"> <b>Price </b> </label>
+            <input class="box" type="text" placeholder="Location" name="Location" required> 
+            <br>
+            <button type="submit">Submit</button>
+
+    </div>
+</body>
+</html>
