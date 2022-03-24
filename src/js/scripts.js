@@ -1,6 +1,6 @@
 let books = [
   {
-    title: "ata",
+    title: "Cirque Du Freak",
     location: "Boston",
     price: 200,
   },
@@ -22,6 +22,31 @@ let books = [
   {
     title: "We were liars",
     location: "Singapore",
+    price: 200,
+  },
+  {
+    title: "Pride and Prejudice",
+    location: "Los Angeles",
+    price: 200,
+  },  {
+    title: "I was told there would be cake",
+    location: "San Antonio",
+    price: 200,
+  },  {
+    title: "Something Wicked This Way",
+    location: "Houston",
+    price: 200,
+  },  {
+    title: "To Kill a Mockingbird",
+    location: "Dallas",
+    price: 200,
+  },  {
+    title: "The Perks of Being a Wallflower",
+    location: "New York City",
+    price: 200,
+  },  {
+    title: "A Thousand Splendid Suns",
+    location: "Phiilidelphia",
     price: 200,
   },
 ];
